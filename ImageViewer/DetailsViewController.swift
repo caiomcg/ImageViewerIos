@@ -18,6 +18,7 @@ class DetailsViewController: UIViewController {
         navigationItem.largeTitleDisplayMode = .never
         
         if let name = imageName {
+            title = name
             imageView.image = UIImage(named: name)
         }
     }
